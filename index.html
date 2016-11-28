@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="icon" href="love.ico">
+    <title>You And I</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="offcanvas.css">
+    <script src="ie.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">You And I</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">You</a></li>
+            <li><a href="#contact">Me</a></li>
+          </ul>
+        </div><!-- /.nav-collapse -->
+      </div><!-- /.container -->
+    </nav><!-- /.navbar -->
+
+    <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-9">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          <div class="jumbotron">
+            <h1>This one for you and me</h1>
+            <p>Thoughts of you dance through my mind. Knowing, it is just a matter of time.Wondering... will u ever be mine?You are in my dreams, night... and sometimes... day.The thoughts seem to never fade away. </p>
+          </div>
+          <div class="row">
+            <div class="col-xs-6 col-lg-4">
+              <h2>2015.12.04</h2>
+              <p>Do you stil remember that day, whatever you see, it was a meaning day</p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+            <div class="col-xs-6 col-lg-4">
+              <h2>2016.10.30</h2>
+              <p>I give my firmly response</p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+            <div class="col-xs-6 col-lg-4">
+              <h2>2016.11.11</h2>
+              <p>Singles Day but not single. I back to school, the first thing is to meet you</p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+            <div class="col-xs-6 col-lg-4">
+              <h2>2016.11.12</h2>
+              <p>I just could't control myself…… you just controled me</p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+            <div class="col-xs-6 col-lg-4">
+              <h2>2016.11.13</h2>
+              <p>You fined me……</p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+            <div class="col-xs-6 col-lg-4">
+              <h2>2016.11.23</h2>
+              <p>My first time……</p>
+              <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            </div><!--/.col-xs-6.col-lg-4-->
+          </div><!--/row-->
+        </div><!--/.col-xs-12.col-sm-9-->
+
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
+          <div class="list-group">
+            <a href="#" class="list-group-item"><span class="badge">1</span>2015.12.04</a>
+            <a href="#" class="list-group-item"><span class="badge">2</span>2016.10.30</a>
+            <a href="#" class="list-group-item"><span class="badge">3</span>2016.11.06</a>
+            <a href="#" class="list-group-item"><span class="badge">4</span>2016.11.11</a>
+            <a href="#" class="list-group-item"><span class="badge">3</span>2016.11.12</a>
+            <a href="#" class="list-group-item"><span class="badge">2</span>2016.11.13</a>
+            <a href="#" class="list-group-item"><span class="badge">1</span>2016.11.20</a>
+            <a href="#" class="list-group-item"><span class="badge">2</span>2016.11.23</a>
+            <a href="#" class="list-group-item"><span class="badge">3</span>2016.11.24</a>
+            <a href="#" class="list-group-item"><span class="badge">4</span>2016.11.26</a>
+          </div>
+        </div><!--/.sidebar-offcanvas-->
+      </div><!--/row-->
+    </div><!--/.container-->
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="test.js"></script>
+    <script>
+    	$(document).ready(function () {
+			  $('[data-toggle="offcanvas"]').click(function () {
+			    $('.row-offcanvas').toggleClass('active');
+			  });
+			});
+    </script>
+  </body>
+</html>
